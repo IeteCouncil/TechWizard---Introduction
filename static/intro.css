@@ -21,6 +21,26 @@ body {
   background-size: 10px, 100%;
 }
 
+
+.topnav {
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Dekko", cursive;
+}
+
+
 .loader_bg{
   position: fixed;
   z-index: 999999;
@@ -205,5 +225,13 @@ h1{
   h1 {
    font-size: 60px;
  }
+
+ .topnav{
+  max-width: 100%;
+}
+
+.topnav a{
+  font-size: 22px;
+}
 
 }
